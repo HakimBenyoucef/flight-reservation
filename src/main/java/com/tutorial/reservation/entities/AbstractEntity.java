@@ -11,7 +11,7 @@ public abstract class AbstractEntity {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Long id;
+	Long id;
 
 	public Long getId() {
 		return id;

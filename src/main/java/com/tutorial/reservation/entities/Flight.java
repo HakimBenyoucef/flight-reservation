@@ -8,36 +8,36 @@ import javax.persistence.Entity;
 @Entity
 public class Flight extends AbstractEntity{
 	
-	private String flight_number;
-	private String operating_airlines;
-	private String departure_city;
-	private String arrival_city;
+	private String flightNumber;
+	private String operatingAirlines;
+	private String departureCity;
+	private String arrivalCity;
 	private Date dateOfDeparture;
 	private Timestamp estimatedDepartureTime;
 
-	public String getFlight_number() {
-		return flight_number;
+	public String getFlightNumber() {
+		return flightNumber;
 	}
-	public void setFlight_number(String flight_number) {
-		this.flight_number = flight_number;
+	public void setFlightNumber(String flight_number) {
+		this.flightNumber = flight_number;
 	}
-	public String getOperating_airlines() {
-		return operating_airlines;
+	public String getOperatingAirlines() {
+		return operatingAirlines;
 	}
-	public void setOperating_airlines(String operating_airlines) {
-		this.operating_airlines = operating_airlines;
+	public void setOperatingAirlines(String operating_airlines) {
+		this.operatingAirlines = operating_airlines;
 	}
-	public String getDeparture_city() {
-		return departure_city;
+	public String getDepartureCity() {
+		return departureCity;
 	}
-	public void setDeparture_city(String departure_city) {
-		this.departure_city = departure_city;
+	public void setDepartureCity(String departure_city) {
+		this.departureCity = departure_city;
 	}
-	public String getArrival_city() {
-		return arrival_city;
+	public String getArrivalCity() {
+		return arrivalCity;
 	}
-	public void setArrival_city(String arrival_city) {
-		this.arrival_city = arrival_city;
+	public void setArrivalCity(String arrival_city) {
+		this.arrivalCity = arrival_city;
 	}
 	public Date getDateOfDeparture() {
 		return dateOfDeparture;
